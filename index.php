@@ -58,7 +58,7 @@ if ($result) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fruit Quiz Game</title>
+                <title>Fruit Master: Can You Get 10/10? </title>
     <style>
         :root {
             --primary-color: #FF6B6B;
@@ -275,19 +275,15 @@ if ($result) {
         <!-- Start Screen -->
         <div class="game-container">
             <div class="game-title">
-                <i class="fas fa-apple-alt"></i>
-                <h1>Fruit Quiz Game</h1>
-                <i class="fas fa-lemon"></i>
+                <h1>Fruit Master: Can You Get 10/10?</h1>
             </div>
-            <p>Test your knowledge of fruits in this fun and challenging quiz!</p>
+            <p>Challenge yourself with this exciting fruit quiz and test your knowledge! 🍎🍌🍇</p>
             <form method="POST" class="start-form">
                 <input type="text" name="username" placeholder="Enter your name" required>
                 <br>
                 <button type="submit"><i class="fas fa-play"></i> Start Game</button>
             </form>
         </div>
-        <p class="creator-credit">Developed by: Anwarr Jervis</p>
-        <p class="creator-credit"> BSIT - 2B</p>
     <?php elseif (isset($_GET['show_results'])): ?>
         <!-- Results Screen -->
         <div class="game-container">
